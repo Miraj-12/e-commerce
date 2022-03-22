@@ -1,6 +1,6 @@
 import React from 'react';
 import './menu-item.style.scss'
-export const MenuItem = ({ title, imageUrl }) => (
+const MenuItem = ({ title, imageUrl }) => (
     <div className="menu-item">
         <div className="background-image"
             style={{
@@ -16,3 +16,4 @@ export const MenuItem = ({ title, imageUrl }) => (
         </div>
     </div >
 )
+export default MenuItem;
